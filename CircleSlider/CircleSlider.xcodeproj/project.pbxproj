@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077B6BB32BC8EB5400B245E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B6BB22BC8EB5400B245E0 /* AppDelegate.swift */; };
+		077B6BB52BC8EB5400B245E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B6BB42BC8EB5400B245E0 /* SceneDelegate.swift */; };
+		077B6BB72BC8EB5400B245E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B6BB62BC8EB5400B245E0 /* ViewController.swift */; };
+		077B6BBA2BC8EB5400B245E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077B6BB82BC8EB5400B245E0 /* Main.storyboard */; };
+		077B6BBC2BC8EB5700B245E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077B6BBB2BC8EB5700B245E0 /* Assets.xcassets */; };
+		077B6BBF2BC8EB5700B245E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077B6BBD2BC8EB5700B245E0 /* LaunchScreen.storyboard */; };
+		077B6BC82BC8F61700B245E0 /* CircleSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077B6BC72BC8F61700B245E0 /* CircleSliderView.xib */; };
+		077B6BCA2BC8F62700B245E0 /* CircleSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B6BC92BC8F62700B245E0 /* CircleSliderView.swift */; };
+		077B6BCD2BC9245800B245E0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B6BCC2BC9245800B245E0 /* Extension.swift */; };
+		DB44C8CA1B19AC1CAFC955E2 /* Pods_CircleSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83A4C2889DBAF5DFA9DC7F9 /* Pods_CircleSlider.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		077B6BAF2BC8EB5400B245E0 /* CircleSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077B6BB22BC8EB5400B245E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		077B6BB42BC8EB5400B245E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		077B6BB62BC8EB5400B245E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		077B6BB92BC8EB5400B245E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		077B6BBB2BC8EB5700B245E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		077B6BBE2BC8EB5700B245E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		077B6BC02BC8EB5700B245E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077B6BC72BC8F61700B245E0 /* CircleSliderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircleSliderView.xib; sourceTree = "<group>"; };
+		077B6BC92BC8F62700B245E0 /* CircleSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSliderView.swift; sourceTree = "<group>"; };
+		077B6BCC2BC9245800B245E0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		34E1957C1498AEAD23E4BE40 /* Pods-CircleSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleSlider.release.xcconfig"; path = "Target Support Files/Pods-CircleSlider/Pods-CircleSlider.release.xcconfig"; sourceTree = "<group>"; };
+		79B1254E6517E762231BDCDF /* Pods-CircleSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleSlider.debug.xcconfig"; path = "Target Support Files/Pods-CircleSlider/Pods-CircleSlider.debug.xcconfig"; sourceTree = "<group>"; };
+		C83A4C2889DBAF5DFA9DC7F9 /* Pods_CircleSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircleSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077B6BAC2BC8EB5400B245E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB44C8CA1B19AC1CAFC955E2 /* Pods_CircleSlider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077B6BA62BC8EB5400B245E0 = {
+			isa = PBXGroup;
+			children = (
+				077B6BB12BC8EB5400B245E0 /* CircleSlider */,
+				077B6BB02BC8EB5400B245E0 /* Products */,
+				35BF6BB9F437F5B7515A19E2 /* Pods */,
+				B861AB1CA83EB5247CAF18DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		077B6BB02BC8EB5400B245E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077B6BAF2BC8EB5400B245E0 /* CircleSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077B6BB12BC8EB5400B245E0 /* CircleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				077B6BCB2BC9243400B245E0 /* Extension */,
+				077B6BC62BC8F5ED00B245E0 /* CircleSlider */,
+				077B6BB22BC8EB5400B245E0 /* AppDelegate.swift */,
+				077B6BB42BC8EB5400B245E0 /* SceneDelegate.swift */,
+				077B6BB62BC8EB5400B245E0 /* ViewController.swift */,
+				077B6BB82BC8EB5400B245E0 /* Main.storyboard */,
+				077B6BBB2BC8EB5700B245E0 /* Assets.xcassets */,
+				077B6BBD2BC8EB5700B245E0 /* LaunchScreen.storyboard */,
+				077B6BC02BC8EB5700B245E0 /* Info.plist */,
+			);
+			path = CircleSlider;
+			sourceTree = "<group>";
+		};
+		077B6BC62BC8F5ED00B245E0 /* CircleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				077B6BC72BC8F61700B245E0 /* CircleSliderView.xib */,
+				077B6BC92BC8F62700B245E0 /* CircleSliderView.swift */,
+			);
+			path = CircleSlider;
+			sourceTree = "<group>";
+		};
+		077B6BCB2BC9243400B245E0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				077B6BCC2BC9245800B245E0 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		35BF6BB9F437F5B7515A19E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79B1254E6517E762231BDCDF /* Pods-CircleSlider.debug.xcconfig */,
+				34E1957C1498AEAD23E4BE40 /* Pods-CircleSlider.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B861AB1CA83EB5247CAF18DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C83A4C2889DBAF5DFA9DC7F9 /* Pods_CircleSlider.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077B6BAE2BC8EB5400B245E0 /* CircleSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077B6BC32BC8EB5700B245E0 /* Build configuration list for PBXNativeTarget "CircleSlider" */;
+			buildPhases = (
+				2D36DA2DB1B916482155D93E /* [CP] Check Pods Manifest.lock */,
+				077B6BAB2BC8EB5400B245E0 /* Sources */,
+				077B6BAC2BC8EB5400B245E0 /* Frameworks */,
+				077B6BAD2BC8EB5400B245E0 /* Resources */,
+				3FAEFF6B1D0D7D1FBFAADF7B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleSlider;
+			productName = CircleSlider;
+			productReference = 077B6BAF2BC8EB5400B245E0 /* CircleSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077B6BA72BC8EB5400B245E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					077B6BAE2BC8EB5400B245E0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 077B6BAA2BC8EB5400B245E0 /* Build configuration list for PBXProject "CircleSlider" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077B6BA62BC8EB5400B245E0;
+			productRefGroup = 077B6BB02BC8EB5400B245E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077B6BAE2BC8EB5400B245E0 /* CircleSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077B6BAD2BC8EB5400B245E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B6BBF2BC8EB5700B245E0 /* LaunchScreen.storyboard in Resources */,
+				077B6BC82BC8F61700B245E0 /* CircleSliderView.xib in Resources */,
+				077B6BBC2BC8EB5700B245E0 /* Assets.xcassets in Resources */,
+				077B6BBA2BC8EB5400B245E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D36DA2DB1B916482155D93E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CircleSlider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FAEFF6B1D0D7D1FBFAADF7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CircleSlider/Pods-CircleSlider-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CircleSlider/Pods-CircleSlider-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CircleSlider/Pods-CircleSlider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077B6BAB2BC8EB5400B245E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B6BCD2BC9245800B245E0 /* Extension.swift in Sources */,
+				077B6BB72BC8EB5400B245E0 /* ViewController.swift in Sources */,
+				077B6BCA2BC8F62700B245E0 /* CircleSliderView.swift in Sources */,
+				077B6BB32BC8EB5400B245E0 /* AppDelegate.swift in Sources */,
+				077B6BB52BC8EB5400B245E0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		077B6BB82BC8EB5400B245E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077B6BB92BC8EB5400B245E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		077B6BBD2BC8EB5700B245E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077B6BBE2BC8EB5700B245E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077B6BC12BC8EB5700B245E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		077B6BC22BC8EB5700B245E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077B6BC42BC8EB5700B245E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B1254E6517E762231BDCDF /* Pods-CircleSlider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74MRQW9NHL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CircleSlider/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = truongnh.CircleSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		077B6BC52BC8EB5700B245E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E1957C1498AEAD23E4BE40 /* Pods-CircleSlider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74MRQW9NHL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CircleSlider/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = truongnh.CircleSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077B6BAA2BC8EB5400B245E0 /* Build configuration list for PBXProject "CircleSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077B6BC12BC8EB5700B245E0 /* Debug */,
+				077B6BC22BC8EB5700B245E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077B6BC32BC8EB5700B245E0 /* Build configuration list for PBXNativeTarget "CircleSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077B6BC42BC8EB5700B245E0 /* Debug */,
+				077B6BC52BC8EB5700B245E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077B6BA72BC8EB5400B245E0 /* Project object */;
+}
